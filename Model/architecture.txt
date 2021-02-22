@@ -1,0 +1,14 @@
+Method:
+Input - Video Frames cropped around a central point of fixation into a convolutional neural
+network 
+Output - The network outputs a distribution of probabilities assigned to a 4x4 grid corresponding to sections of
+the image, indicating the likelihood of the viewers gaze saccading to that position if they are currently fixating
+upon the given point.
+
+Data preprocessing:
+1. extract saccade 
+2. Produce Images
+
+Model:
+
+PreTraining:
